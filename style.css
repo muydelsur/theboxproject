@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+
+@font-face {
+    font-family: "halloween";
+    src: "fonts/Creepster-Regular.ttf" format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: roboto mono;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .7em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main.nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("imagenes/background-image-principal.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 25%;
+    background-position: 30%;
+}
+
+.gym-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "halloween";
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+.gym-name-up {
+    font-size: 7em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.conteiner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: "sans-serif";
+    font-weight: normal;
+    color: #777;
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+.about-box-image {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30%;
+}
+
+.main-footer {
+    background-color: #393D3F;
+    color: whitesmoke;
+    padding: .25em 0;
+}
+
+.main-footer-conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-conteiner ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{ /*no puedo hacer que las imagenes esten a la derecha*/
+    width: 30px;
+    height: 30px;
+}
+
+.activities-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.activities-row:last-child {
+    border-bottom: none;
+}
+
+.gym-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.act-offer {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.btn-act{
+    max-width: 19%;
+    padding: .5em;
+}
